@@ -10,6 +10,7 @@ if __name__ == '__main__':
     
     # Make a new turtle
     hi = turtle.Turtle()
+    hi.hideturtle()
     # Ask the user what shape they want to draw and store it in a variable
     question = simpledialog.askstring(title="", prompt='What type of shape should I draw? Please just say the shape with no other words!')
     # Draw the shape requested by the user using if-elif-else statements
@@ -32,11 +33,11 @@ if __name__ == '__main__':
             hi.forward(80)
     if question == 'triangle':
             hi.right(55)
-            hi.forward(100)
+            hi.forward(305)
             hi.right(125)
-            hi.forward(100)
+            hi.forward(350)
             hi.right(125)
-            hi.forward(100)
+            hi.forward(305)
     # Call the turtle.done() method
 
     turtle.done()
