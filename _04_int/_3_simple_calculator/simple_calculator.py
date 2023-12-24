@@ -23,10 +23,10 @@ if __name__ == '__main__':
     messagebox.showinfo(message='for example :')
     messagebox.showinfo(message='Just type in "divide" if you want to divide any two numbers!')
     c = simpledialog.askstring(title="", prompt='type if you want to add, subtract, multiply or divide them!')
-    if c == 'divide' :
+    if c == 'divide':
         messagebox.showinfo(message="The quotient of the two numbers is...")
-        messagebox.showinfo(message=str((a / b)) + "!!!")  if c == 'divide' :
-     if c == 'multiply':
+        messagebox.showinfo(message=str((a / b)) + "!!!")
+    if c == 'multiply' :
         messagebox.showinfo(message="The product of the two numbers is...")
         messagebox.showinfo(message=str((a * b)) + "!!!")
     if c == 'add':
