@@ -23,8 +23,12 @@ if __name__ == '__main__':
         print(x)
         print(y)
 
-        # 396, 231
-        # 310, 483
+
+        # 406, 204
+        # 257, 406
+        # 529, 537
+        # 537, 453
+        # 188, 483
 
 
 
@@ -32,10 +36,12 @@ if __name__ == '__main__':
         # of a triangle
         points = [x, y, x - 50, y + 100, x + 50, y + 100]
         canvas.create_polygon(points, fill='gray', width=2) # draws triangle
+        canvas.create_rectangle(x - 50, y + 100, x + 50, y + 200,  fill='gray')
+        canvas.create_polygon(x - 48, y + 202, x - 109, y + 242, x - 98, y + 367, fill='red')
+        canvas.create_polygon(x - 48, y + 202, x - 55, y + 205, x - 110, y + 330, x - 132, y + 248, fill='orange')
+        canvas.create_polygon(x - 149, y + 202, x - 123, y + 333, x - 131, y + 249, fill='red')
 
-        canvas.create_rectangle(x - 50, y + 100, x + 50, y + 200, fill = 'gray')
-
-        canvas.create_polygon(x - 48, y - 202, x - 86, y - 252, fill = 'red')
+        canvas.create_polygon(x - 48, y + 202, x - 55, y + 205, x - 110, y + 330, x - 132, y + 248, fill='orange')
         # 1. Add details to your rocket to make it look better. You can look at
         #    rocket.png for inspiration.
     
